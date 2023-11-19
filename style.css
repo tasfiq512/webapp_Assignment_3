@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+body{
+    background: url(img/wallpaper-8257343_1920.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container{
+    width: 1000px! important;
+    background: url(img/sunset-1651878_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+p{
+    font-size: 14px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.from-title{
+   text-align: center;
+    color: #CE5A67;
+    background-color: #B4BDFF;
+    padding: 10px;
+    border-radius: 5px ;
+    border: 2px solid black;
+}
+.backgroud-from{
+   
+    background-image: linear-gradient(to right bottom, #d4318e, #c851ad, #b86bc6, #a580d7, #9493e2, #7998df, #629bd7, #529ccc, #3091b3, #148499, #0b777e, #166964);
+    
+}
+.textlist{
+    padding: 10px;
+    margin-top: 30px;
+}
+.form-control{
+   
+  
+    font-size: 14px !important;
+    border-radius: 5px;
+    box-shadow: none! important;
+    border: 3px solid rgba(0,0,0,0.8);
+    padding: 10px !important;
+}
+
+.contact-form  .form-control{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 0;
+}
+
+.form-control:focus, .form-control:active{
+    border-color: rgba(17, 63, 115, 0.896);
+}
+
+.btn-primary{
+    background: rgba(17, 63, 115, 0.896);
+    border-color: rgba(108, 5, 79, 0.896);
+    color: #ffffff;
+    width: 180px;
+    border-radius: 5px;
+    margin-left: 150px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.btn-primary:hover{
+    background-color: rgba(40, 5, 93, 0.896);
+}
